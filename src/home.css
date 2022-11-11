@@ -13,4 +13,209 @@
     --hr-color: #CFD8DC;
     --modal-black: #333333;
     --modal-button-color: #F8F9FA;
+    --home-body-color:  linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    --search-background: rgba(247, 247, 247, 0.1);
+    --search-border-color: #A3A3A3;
+    --search-text-color: #BBBBBB;
+    --inpiration-border: #D7D7D7;
+    --footer-background: #1D1D1E;
+    --submit-background:  linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+}
+.home-body{
+    color: var(--home-body-color);
+    padding: 12vh 0 0;
+}
+.first-section{
+    padding: 0 5% 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.Rent{
+    color: var(--header-black);
+    width: 50%;
+}
+.Rent h1{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 140%;
+    width: 100%;
+}
+.Rent span{
+    color: #A02279;
+    font-weight: 500;
+}
+.Rent p{
+    font-weight: 500;
+    font-size: 1.3rem   ;
+    line-height: 35px;
+    padding-bottom: 3vh;
+}
+.Rent-search{
+    display: flex;
+   
+}
+.Rent-search form{
+    width: 100%;
+}
+.Rent-search input{
+    background-color: var(--search-background);
+    height: 8vh;
+    width: 70%;
+    color: var(--search-text-color);
+    border: 1px solid var(--search-border-color);
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    outline: 0;
+    padding: 0 3%;
+}
+.Rent-search .search-button{
+    background-color: #A02279;
+    border:  1px solid #A02279;
+    width: 70%;
+    color: var(--button-color);
+    border-radius: 0px 8px 8px 0px;
+    width: 30%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+.Rent-pics{
+    width: 40%;
+    display: flex;
+    gap: 2%;
+    margin-right: 2%;
+}
+.Rent-pics img{
+    width: 100%;
+}
+.Rent-pics-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 15vh;
+}
+.Rent-pics-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.second-section{
+    height: 10vh;
+    width: 100%;
+    background-color: #A02279;
+    padding: 0 8%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section img{
+    width: 17%;
+}
+.third-section{
+    padding: 1vh 7% 0;
+}
+.inspiration{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: vh; */
+}
+.third-section h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 60px;
+    text-align: center;
+}
+.inspiration-content{
+    width: 23.5%;
+    margin-bottom: 4vh;
+    padding-bottom: 2vh;
+    color: var(--header-black);
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid var(--inpiration-border);
+    border-radius: 15px;
+}
+.inspiration-pic{
+    width: 90%;
+    margin: 2vh 5%;
+}
+.inspiration-content .desert{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.desert .p-1{
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1vh;
+}
+.desert p{
+    font-weight: 700;
+    font-size: 0.7rem;
+    line-height: 1vh;
+}
+.inspiration-content .km{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+.km p{
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1vh;
+}
+.inspiration-rating{
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 1vh;
+}
+.inspiration-rating img{
+    width: 11%;
+}
+.fourth-section{
+    padding: 5vh 5%;
+    margin-top: 5vh;
+    height: 100vh;
+    background-color: #A02279;
+    color: var(--button-color);
+    display: flex;
+    justify-content: space-between;
+}
+.nfts-content{
+    width: 35%;
+    padding-top: 14vh;
+}
+.nfts-content h2{
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 60px;
+}
+.nfts-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 35px;
+}
+.nfts-content button{
+    background-color: var(--button-color);
+    color: #A02279;
+    border-radius: 8px;
+    padding: 1.7vh 5%;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 19px;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.nfts-image{
+    width: 50%;
+    padding-top: 10vh;
+    margin-right: 3%;
+}
+.fourth-section img{
+    width: 100%;
 }

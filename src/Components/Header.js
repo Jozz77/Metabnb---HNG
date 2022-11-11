@@ -10,7 +10,7 @@ export default function Header() {
       <section>
       <header>
           <section className='header-1'>
-          <img src={header} alt="Logo"/> 
+            <Link to="/"><img src={header} alt="Logo"/></Link> 
           </section> 
 
           <section className='header-2'>

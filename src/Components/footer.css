@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    font-family: 'Red Rose', cursive;
+}
+:root{
+    --header-black: #434343;
+    --button-background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    --button-color: #FFFFFF;
+    --modal-background: rgba(64, 64, 64, 0.3);
+    --hr-color: #CFD8DC;
+    --modal-black: #333333;
+    --modal-button-color: #F8F9FA;
+    --home-body-color:  linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    --search-background: rgba(247, 247, 247, 0.1);
+    --search-border-color: #A3A3A3;
+    --search-text-color: #BBBBBB;
+    --inpiration-border: #D7D7D7;
+    --footer-background: #1D1D1E;
+    --submit-background:  linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+}
+footer{
+    height: 40vh;
+    background-color: var(--footer-background);
+    color: var(--button-color);
+    padding: 5vh 10% 0 7%;
+}
+.footer-section-1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-1{
+    padding-top: 2vh;
+}
+.footer-icons i{
+    color: var(--button-color);
+    font-size: 3rem;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.footer-content h4{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 15px;
+}
+.footer-links-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.footer-links{
+    text-decoration: none;
+    color: var(--button-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.footer-section-2 p{
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 15px;
+}
