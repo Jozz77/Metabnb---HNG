@@ -15,7 +15,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Place />} />
+        <Route path="/place" element={<Place />} />
       </Routes>
       <Footer />
      </BrowserRouter>
