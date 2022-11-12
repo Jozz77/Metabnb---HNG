@@ -18,6 +18,7 @@ import Place_13 from './Assets/place-13.png'
 import Place_14 from './Assets/place-14.png'
 import Place_15 from './Assets/place-15.png'
 import Place_16 from './Assets/place-16.png'
+import Location_icon from './Assets/location-icon.svg'
 
 
 export default function Place() {
@@ -35,8 +36,9 @@ export default function Place() {
           <Link to='/place' className='places'>Farm</Link>
         </div>
         
-        <div>
-
+        <div className='location-input'>
+          <input type='text' placeholder='Location' />
+          <img src={Location_icon}  alt="Logo"/>
         </div>
       </section>
 

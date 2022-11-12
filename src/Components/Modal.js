@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react"
 import './modal.css';
 import Modal_hide from '../Assets/x.png'
 import metamask_modal from '../Assets/modal-metamask.png'
@@ -7,12 +7,18 @@ import wallet_connect from '../Assets/modal-walletconnect.png'
 
 
 const Modal = props => {
-    if (!props.show) {
-        return null
-    }
+    // if (!props.show) {
+    //     return null
+    // }
+    // const closeOnEscapeKeyDown = (e) => {
+
+    // }
+    useEffect(() =>{
+      }, [])
+
   return (
-    <section className='modal-body'>
-      <div className='modal-content'>
+  <section className={`modal-body ${props.show ? 'show' : ''}`} onClick={props.onClose}>
+      <div className='modal-content'onClick={e => e.stopPropagation()}>
       <div className='modal'>
 
         <div className='modal-1'>
@@ -31,7 +37,7 @@ const Modal = props => {
         <div className='modal-3'>
           <div className='modal-3-content'>
               <div className='content-flex'>
-                <div className='meta-imgae'><img src={metamask_modal} alt="Logo"/> </div>
+                <div className='meta-image'><img src={metamask_modal} alt="Logo"/> </div>
                 <p>Metamask</p>
               </div>
               <div className='modal-next'>
@@ -39,9 +45,9 @@ const Modal = props => {
               </div>
           </div>
 
-          <div className='modal-3-content'>
+          <div className='modal-3-content mod-new'>
               <div className='content-flex'>
-                <div className='meta-imgae'><img src={wallet_connect} alt="Logo"/> </div>
+                <div className='meta-image'><img src={wallet_connect} alt="Logo"/> </div>
                 <p>WalletConnect</p>
               </div>
               <div className='modal-next'>
