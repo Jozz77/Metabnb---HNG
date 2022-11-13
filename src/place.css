@@ -30,7 +30,7 @@
 .place-section-1{
     display: flex;
     justify-content: space-between;
-    padding: 10vh 5% 6vh;
+    padding: 10vh 6% 6vh;
 }
 
 .place-name{
@@ -77,7 +77,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 5% 6vh;
+    padding: 0 6% 6vh;
 }
 .inspiration-content{
     width: 23.5%;

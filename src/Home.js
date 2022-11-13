@@ -30,7 +30,7 @@ export default function Home() {
           <div className='Rent-search'>
             <form>
             <input name='search' type='text' placeholder='Search for location' required />
-            <input type='submit' placeholder='Search' className='search-button' />
+            <input type='submit' value='Search' className='search-button' />
             </form>
           </div>
         </div>
