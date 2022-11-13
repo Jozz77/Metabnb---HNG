@@ -66,3 +66,9 @@ footer{
     font-size: 0.95rem;
     line-height: 15px;
 }
+
+@media screen and (max-width: 450px) {
+    footer{
+        display: none;
+    }
+}
