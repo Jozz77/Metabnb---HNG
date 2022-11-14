@@ -22,7 +22,7 @@ const Modal = props => {
       <div className='modal'>
 
         <div className='modal-1'>
-          <h5>Connect Wallet</h5>
+          <h1>Connect Wallet</h1>
           <div className='modal-1-image'>
           <img src={Modal_hide} onClick={props.onClose} alt="Logo"/> 
           </div>
@@ -62,7 +62,5 @@ const Modal = props => {
     </section>
   )
 }
-
-
 
 export default Modal
