@@ -8,6 +8,7 @@ import Hamburger from './Hamburger';
 
 export default function Header() {
   const [show, setShow] = useState(false)
+  const [showHam, setShowHam] = useState(false)
     return (
       <section>
       <header>
@@ -31,11 +32,11 @@ export default function Header() {
         <Link to="/"><img src={header_icon} className='header-mobile-logo' alt="Logo"/></Link>
         <button onClick={() => setShow(true)}>Connect wallet</button> 
         <div className='hamburger-icon'>
-          <img src={Hamburger_open} alt="Logo"/>
+          <img src={Hamburger_open} alt="Logo"onClick={() => setShowHam(true)}/>
         </div>
       </div>
 
-      <Hamburger />
+      <Hamburger onClose={() => setShowHam(false)} show={showHam}/>
 
       <Modal onClose={() => setShow(false)} show={show} />
       </section>

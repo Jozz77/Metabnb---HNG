@@ -197,7 +197,7 @@ header{
         padding: 2vh 5%;
     }
     .header-mobile-logo{
-        width: 80%;
+        width: 75%;
         margin-top: 0.3vh;
     }
     .header-mobile button{
@@ -215,9 +215,85 @@ header{
         /* position: absolute;
         left: 85%; */
         width: 10%;
-        margin-top: 0.9vh;
+        margin-top: 0.3vh;
+    }
+    .hamburger-icon img{
+        width: 65%;
+    }
+}
+
+/* fifth media query */
+@media screen and (max-width: 500px) {
+    header{
+        display: none;
+    }
+    .header-mobile{
+        /* position: relative; */
+        display: flex;
+        justify-content: space-between;
+        padding: 2vh 5%;
+    }
+    .header-mobile-logo{
+        width: 75%;
+        margin-top: 0.3vh;
+    }
+    .header-mobile button{
+        background: var(--button-background);
+        color: var(--button-color);
+        font-weight: 400;
+        font-size: 0.6em;
+        line-height: 20px;
+        padding: 0.5vh 1rem;
+        margin-left: -20%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .hamburger-icon{
+        /* position: absolute;
+        left: 85%; */
+        width: 10%;
+        margin-top: 0.5vh;
     }
     .hamburger-icon img{
         width: 70%;
+        margin-left: 25%;
+    }
+}
+
+/* sixth media query */
+@media screen and (max-width: 400px) {
+    header{
+        display: none;
+    }
+    .header-mobile{
+        /* position: relative; */
+        display: flex;
+        justify-content: space-between;
+        padding: 2vh 5%;
+    }
+    .header-mobile-logo{
+        width: 50%;
+        margin-top: 0.3vh;
+    }
+    .header-mobile button{
+        background: var(--button-background);
+        color: var(--button-color);
+        font-weight: 400;
+        font-size: 0.5em;
+        line-height: 20px;
+        padding: 0.3vh 0.8rem;
+        margin-left: -40%;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .hamburger-icon{
+        /* position: absolute;
+        left: 85%; */
+        width: 10%;
+        margin-top: 0.5vh;
+    }
+    .hamburger-icon img{
+        width: 65%;
+        margin-left: 25%;
     }
 }
