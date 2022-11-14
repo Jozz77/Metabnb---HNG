@@ -1,6 +1,9 @@
 import React from 'react'
 import './footer.css'
 import Footer from '../Assets/footer-logo.svg'
+import Facebook from '../Assets/facebook.svg'
+import Instagram from '../Assets/instagram.png'
+import Twitter from '../Assets/twitter.png'
 import { Link } from 'react-router-dom';
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
 
@@ -11,9 +14,9 @@ export default function footer() {
           <div className='footer-1'>
               <Link to="/"><img src={Footer} alt="Logo"/></Link>
               <div className='footer-icons'>
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <Link to="/"><img src={Facebook} alt="Logo"/></Link>
+                <Link to="/"><img src={Instagram} alt="Logo"/></Link>
+                <Link to="/"><img src={Twitter} alt="Logo"/></Link>
               </div>
           </div>
 

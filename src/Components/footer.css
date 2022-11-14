@@ -34,9 +34,14 @@ footer{
 .footer-1{
     padding-top: 2vh;
 }
-.footer-icons i{
-    color: var(--button-color);
-    font-size: 3rem;
+.footer-icons{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.footer-icons img{
+    width: 90%;
 }
 .footer-2{
     display: flex;
