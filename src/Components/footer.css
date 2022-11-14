@@ -19,26 +19,30 @@
     --search-text-color: #BBBBBB;
     --inpiration-border: #D7D7D7;
     --footer-background: #1D1D1E;
+    --all-purple: #A02279;
+    --location-input-background: #B4B4B4;
     --submit-background:  linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
 }
 footer{
-    height: 40vh;
     background-color: var(--footer-background);
     color: var(--button-color);
-    padding: 5vh 10% 0 7%;
+    padding: 5vh 10% 2vh 7%;
 }
 .footer-section-1{
     display: flex;
     justify-content: space-between;
 }
 .footer-1{
-    padding-top: 2vh;
+    padding-top: 1vh;
+}
+.footer-1 img{
+    width: 100%;
 }
 .footer-icons{
     display: flex;
-    width: 40%;
+    width: 47%;
     justify-content: space-between;
-    margin-top: 10vh;
+    margin-top: 11vh;
 }
 .footer-icons img{
     width: 90%;
@@ -50,30 +54,168 @@ footer{
 }
 .footer-content h4{
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 15px;
 }
 .footer-links-container{
     display: flex;
     flex-direction: column;
-    gap: 1vh;
+    gap: 1.3vh;
 }
 .footer-links{
     text-decoration: none;
     color: var(--button-color);
     cursor: pointer;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     line-height: 25px;
+}
+.footer-links:hover{
+    color: var(--all-purple);
+}
+.footer-section-2{
+    margin-top: 4vh;
 }
 .footer-section-2 p{
     font-weight: 400;
-    font-size: 0.95rem;
+    font-size: 1em;
     line-height: 15px;
 }
+.footer-icons-mobile{
+    display: none;
+}
 
+/* first media query */
+@media screen and (max-width: 850px){
+    footer{
+        background-color: var(--footer-background);
+        color: var(--button-color);
+        padding: 5vh 10% 2vh 7%;
+    }
+    .footer-section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-1{
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+    }
+    .footer-1 img{
+        width: 40%;
+    }
+    .footer-icons{
+        display: none;
+    }
+   
+    .footer-2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer-content h4{
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 15px;
+    }
+    .footer-links-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1.3vh;
+    }
+    .footer-links{
+        text-decoration: none;
+        color: var(--button-color);
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 0.9em;
+        line-height: 25px;
+    }
+    .footer-section-2{
+        margin-top: 4vh;
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+    }
+    .footer-section-2 p{
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 15px;
+    }
+    .footer-icons-mobile{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.65vh;
+        width: 15%;
+    }
+    .footer-icons-mobile img{
+        width: 70%;
+    }
+}
+/* second media query */
 @media screen and (max-width: 450px) {
     footer{
+        background-color: var(--footer-background);
+        color: var(--button-color);
+        padding: 4vh 10% 1vh 7%;
+    }
+    .footer-section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-1{
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+    }
+    .footer-1 img{
+        width: 50%;
+    }
+    .footer-icons{
         display: none;
+    }
+   
+    .footer-2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer-content h4{
+        font-weight: 700;
+        font-size: 0.8em;
+        line-height: 5px;
+    }
+    .footer-links-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5vh;
+    }
+    .footer-links{
+        text-decoration: none;
+        color: var(--button-color);
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 0.7em;
+        line-height: 25px;
+    }
+    .footer-section-2{
+        margin-top: 4vh;
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+    }
+    .footer-section-2 p{
+        font-weight: 400;
+        font-size: 0.75em;
+        line-height: 15px;
+    }
+    .footer-icons-mobile{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.4vh;
+        width: 20%;
+    }
+    .footer-icons-mobile img{
+        width: 60%;
     }
 }

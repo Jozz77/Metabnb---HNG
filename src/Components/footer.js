@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import Footer from '../Assets/footer-logo.svg'
+import Footer_icon from '../Assets/footer-logo.svg'
 import Facebook from '../Assets/facebook.svg'
 import Instagram from '../Assets/instagram.png'
 import Twitter from '../Assets/twitter.png'
@@ -12,7 +12,7 @@ export default function footer() {
     <footer>
         <section className='footer-section-1'>
           <div className='footer-1'>
-              <Link to="/"><img src={Footer} alt="Logo"/></Link>
+              <Link to="/"><img src={Footer_icon} alt="Logo"/></Link>
               <div className='footer-icons'>
                 <Link to="/"><img src={Facebook} alt="Logo"/></Link>
                 <Link to="/"><img src={Instagram} alt="Logo"/></Link>
@@ -52,8 +52,15 @@ export default function footer() {
             </div>
           </div>
         </section>
+
         <section className='footer-section-2'>
             <p>&copy; 2022 Metabnb</p>
+            <div className='footer-icons-mobile'>
+                <Link to="/"><img src={Facebook} alt="Logo"/></Link>
+                <Link to="/"><img src={Instagram} alt="Logo"/></Link>
+                <Link to="/"><img src={Twitter} alt="Logo"/></Link>
+              </div>
+            
         </section>
       </footer>
   )
