@@ -13,7 +13,7 @@ export default function Header() {
       <section>
       <header>
           <section className='header-1'>
-            <Link to="/"><img src={header_icon} alt="Logo"/></Link> 
+            <Link to="/"><img src={header_icon} alt="Metabnb-Logo"/></Link> 
           </section> 
 
           <section className='header-2'>
@@ -29,7 +29,7 @@ export default function Header() {
       </header>
 
       <div className='header-mobile'>
-        <Link to="/"><img src={header_icon} className='header-mobile-logo' alt="Logo"/></Link>
+        <Link to="/"><img src={header_icon} className='header-mobile-logo' alt="Metabnb-Logo"/></Link>
         <button onClick={() => setShow(true)}>Connect wallet</button> 
         <div className='hamburger-icon'>
           <img src={Hamburger_open} alt="Logo"onClick={() => setShowHam(true)}/>

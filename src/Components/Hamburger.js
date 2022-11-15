@@ -17,7 +17,7 @@ const Hamburger = props => {
     <section className={`hamburger ${props.show ? 'show' : ''}`} onClick={props.onClose}>
        <div className='hamburger-contents' onClick={e => e.stopPropagation()}>
         <div className='hamburger-close'>
-            <img src={Hamburger_close} alt="Logo" onClick={props.onClose} />
+            <img src={Hamburger_close} alt="Close-button" onClick={props.onClose} />
         </div>
         <div className='hamburger-links'>
             <Link to="/" className='ham_links' onClick={props.onClose}>Home</Link>

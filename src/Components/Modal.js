@@ -24,7 +24,7 @@ const Modal = props => {
         <div className='modal-1'>
           <h1>Connect Wallet</h1>
           <div className='modal-1-image'>
-          <img src={Modal_hide} onClick={props.onClose} alt="Logo"/> 
+          <img src={Modal_hide} onClick={props.onClose} alt="Close-button"/> 
           </div>
         </div>
 
@@ -37,21 +37,21 @@ const Modal = props => {
         <div className='modal-3'>
           <div className='modal-3-content'>
               <div className='content-flex'>
-                <div className='meta-image'><img src={metamask_modal} alt="Logo"/> </div>
+                <div className='meta-image'><img src={metamask_modal} alt="Metamask-pic"/> </div>
                 <p>Metamask</p>
               </div>
               <div className='modal-next'>
-                <img src={next} alt="Logo"/> 
+                <img src={next} alt="Next-button"/> 
               </div>
           </div>
 
           <div className='modal-3-content mod-new'>
               <div className='content-flex'>
-                <div className='meta-image'><img src={wallet_connect} alt="Logo"/> </div>
+                <div className='meta-image'><img src={wallet_connect} alt="Walletconnect-pic"/> </div>
                 <p>WalletConnect</p>
               </div>
               <div className='modal-next'>
-                <img src={next} alt="Logo"/> 
+                <img src={next} alt="Next-button"/> 
               </div>
           </div>
            

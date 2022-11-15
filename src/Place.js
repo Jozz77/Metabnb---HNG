@@ -38,7 +38,7 @@ export default function Place() {
         
         <div className='location-input'>
           <input type='text' placeholder='Location' />
-          <img src={Location_icon}  alt="Logo"/>
+          <img src={Location_icon}  alt="Location-Logo"/>
         </div>
       </section>
       
@@ -55,13 +55,13 @@ export default function Place() {
         </select>
         <div className='location-input'>
           <input type='text' placeholder='Location' />
-          <img src={Location_icon}  alt="Logo"/>
+          <img src={Location_icon}  alt="Location-Logo"/>
         </div>
       </section>
 
       <section className='place-inspiration'>
           <div className='inspiration-content'>
-            <img src={Place_1} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_1} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -71,11 +71,11 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
@@ -90,16 +90,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_3} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_3} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -109,16 +109,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_4} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_4} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -128,16 +128,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_5} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_5} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -147,16 +147,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_6} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_6} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -166,16 +166,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
               <img src={Inspiration_star} alt="Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_7} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_7} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -185,16 +185,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_8} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_8} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -204,16 +204,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_9} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_9} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -223,16 +223,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_10} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_10} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -242,16 +242,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_11} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_11} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -261,16 +261,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_12} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_12} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -280,16 +280,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_13} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_13} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -299,16 +299,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_14} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_14} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -318,16 +318,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_15} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_15} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -337,16 +337,16 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Place_16} className='inspiration-pic' alt="Logo"/> 
+            <img src={Place_16} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -356,11 +356,11 @@ export default function Place() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
         </section>

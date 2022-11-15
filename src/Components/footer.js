@@ -12,11 +12,11 @@ export default function footer() {
     <footer>
         <section className='footer-section-1'>
           <div className='footer-1'>
-              <Link to="/"><img src={Footer_icon} alt="Logo"/></Link>
+              <Link to="/"><img src={Footer_icon} alt="Footer-Logo"/></Link>
               <div className='footer-icons'>
-                <Link to="/"><img src={Facebook} alt="Logo"/></Link>
-                <Link to="/"><img src={Instagram} alt="Logo"/></Link>
-                <Link to="/"><img src={Twitter} alt="Logo"/></Link>
+                <Link to="/"><img src={Facebook} alt="Facebook-Logo"/></Link>
+                <Link to="/"><img src={Instagram} alt="Instagram-Logo"/></Link>
+                <Link to="/"><img src={Twitter} alt="Twitter-Logo"/></Link>
               </div>
           </div>
 
@@ -56,9 +56,9 @@ export default function footer() {
         <section className='footer-section-2'>
             <p>&copy; 2022 Metabnb</p>
             <div className='footer-icons-mobile'>
-                <Link to="/"><img src={Facebook} alt="Logo"/></Link>
-                <Link to="/"><img src={Instagram} alt="Logo"/></Link>
-                <Link to="/"><img src={Twitter} alt="Logo"/></Link>
+                <Link to="/"><img src={Facebook} alt="Facebook-Logo"/></Link>
+                <Link to="/"><img src={Instagram} alt="Instagram-Logo"/></Link>
+                <Link to="/"><img src={Twitter} alt="Twitter-Logo"/></Link>
               </div>
             
         </section>

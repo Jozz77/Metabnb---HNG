@@ -46,7 +46,7 @@ header{
     line-height: 25px;
 }
 .header-2 .links:hover{
-    color:  var(--button-background);
+    color:  var(--all-purple);
 }
 /* .header-3{
 

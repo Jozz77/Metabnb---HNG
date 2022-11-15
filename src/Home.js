@@ -37,20 +37,20 @@ export default function Home() {
 
         <div className='Rent-pics'>
           <div className='Rent-pics-1'>
-            <img src={Rent_1} alt="Logo"/> 
-            <img src={Rent_2} alt="Logo"/> 
+            <img src={Rent_1} alt="A beautiful place"/> 
+            <img src={Rent_2} alt="A beautiful place"/> 
           </div>
           <div className='Rent-pics-2'>
-            <img src={Rent_3} alt="Logo"/> 
-            <img src={Rent_4} alt="Logo"/> 
+            <img src={Rent_3} alt="A beautiful place"/> 
+            <img src={Rent_4} alt="A beautiful place"/> 
           </div>
         </div>
       </section>
 
       <section className='second-section'>
-        <img src={MbToken} alt="Logo"/> 
-        <img src={Metamask} alt="Logo"/> 
-        <img src={OpenSea} alt="Logo"/> 
+        <img src={MbToken} alt="MbToken-Logo"/> 
+        <img src={Metamask} alt="Metamask-Logo"/> 
+        <img src={OpenSea} alt="OpenSea-Logo"/> 
       </section>
 
       <section className='third-section'>
@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className='inspiration'>
           <div className='inspiration-content'>
-            <img src={Inspiration_1} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_1} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -68,16 +68,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_2} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_2} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -87,16 +87,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_3} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_3} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -106,16 +106,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_4} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_4} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -125,16 +125,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_5} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_5} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -144,16 +144,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_6} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_6} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -163,16 +163,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_7} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_7} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -182,16 +182,16 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
 
           <div className='inspiration-content'>
-            <img src={Inspiration_8} className='inspiration-pic' alt="Logo"/> 
+            <img src={Inspiration_8} className='inspiration-pic' alt="Inspiration-pic"/> 
             <div className='desert'>
               <p className='p-1'>Desert king</p>
               <p>1MBT per night</p>
@@ -201,11 +201,11 @@ export default function Home() {
               <p>available for 2weeks stay</p>
             </div>
             <div className='inspiration-rating'>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
-              <img src={Inspiration_star} alt="Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
+              <img src={Inspiration_star} alt="Rating-Logo"/>
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function Home() {
             <button>Learn more</button>
           </div>
           <div className='nfts-image'>
-          <img src={Metabnb_nfts} alt="Logo"/>
+          <img src={Metabnb_nfts} alt="Nft_Image"/>
           </div>
       </section>
       
