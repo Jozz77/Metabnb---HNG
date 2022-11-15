@@ -41,6 +41,23 @@ export default function Place() {
           <img src={Location_icon}  alt="Logo"/>
         </div>
       </section>
+      
+      <section className='place-section-1-mobile'>
+        <select>
+          <option className='places-mobile'>Resturant</option>
+          <option className='places-mobile'>Cottage</option>
+          <option className='places-mobile'>Castle</option>
+          <option className='places-mobile'>fantast city</option>
+          <option className='places-mobile'>beach</option>
+          <option className='places-mobile'>Carbins</option>
+          <option className='places-mobile'>Off-grid</option>
+          <option className='places-mobile'>Farm</option>
+        </select>
+        <div className='location-input'>
+          <input type='text' placeholder='Location' />
+          <img src={Location_icon}  alt="Logo"/>
+        </div>
+      </section>
 
       <section className='place-inspiration'>
           <div className='inspiration-content'>

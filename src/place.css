@@ -71,6 +71,9 @@
     left: 70%;
     width: 12%;
 }
+.place-section-1-mobile{
+    display: none;
+}
 
 /* second section */
 .place-inspiration{
@@ -173,6 +176,9 @@
         top: 1.5vh;
         left: 70%;
         width: 12%;
+    }
+    .place-section-1-mobile{
+        display: none;
     }
     
     /* second section */
@@ -282,6 +288,9 @@
         left: 70%;
         width: 13%;
     }
+    .place-section-1-mobile{
+        display: none;
+    }
     
     /* second section */
     .place-inspiration{
@@ -389,6 +398,9 @@
         left: 70%;
         width: 13%;
     }
+    .place-section-1-mobile{
+        display: none;
+    }
     
     /* second section */
     .place-inspiration{
@@ -448,36 +460,43 @@
     .inspiration-rating img{
         width: 11%;
     }
+
     
 }
 
 /* fourth media query */
 @media screen and (min-width: 451px) and (max-width: 600px) {
     .place-section-1{
+        display: none;
+    }
+    .place-section-1-mobile{
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         padding: 6vh 6% 3vh;
     }
-    
-    .place-name{
-        width: 95%;
-        padding-top: 0.6vh;
-        display: flex;
-        justify-content: space-between;
-    }
-    .places{
-        text-decoration: none;
-        color: var(--header-black);
+    .place-section-1-mobile select{
+        border: 1px solid var(--location-input-background);
+        border-radius: 5px;
+        outline: 0;
         font-weight: 400;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         line-height: 25px;
+        color: var(--header-black);
+        padding: 0 2%;
     }
-    .places:hover{
-        color: #A02279;
+    .place-section-1-mobile select option:focus{
+        color: black;
+    }
+    .place-section-1-mobile select option{
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 25px;
+        border-radius: 5px;
+        color: var(--button-color);
+        background-color: var(--all-purple);
     }
     .location-input{
-        width: 22%;
+        width: 27%;
         margin-right: 0%;
         position: relative;
         margin-top: 0.4vh;
@@ -485,17 +504,17 @@
     .location-input input{
         /* height: 4vh; */
         width: 95%;
-        padding: 0.75vh 1.75rem 0.7vh 0.5rem;
+        padding: 0.9vh 1.75rem 0.9vh 0.5rem;
         border: 1px solid var(--location-input-background);
         border-radius: 5px;
         outline: 0;
         font-weight: 400;
-        font-size: 0.65rem;
+        font-size: 0.9rem;
         line-height: 19px;
     }
     .location-input img{
         position: absolute;
-        top: 30%;
+        top: 28%;
         left: 70%;
         width: 13%;
     }
@@ -564,56 +583,58 @@
 /* fifth media query - mobile */
 @media screen and (min-width: 0px) and (max-width: 450px) {
     .place-section-1{
+        display: none;
+    }
+    .place-section-1-mobile{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         padding: 6vh 6% 3vh;
     }
-    
-    .place-name{
-        width: 94%;
-        padding-top: 0.6vh;
-        padding-bottom: 0.3vh;
-        display: flex;
-        gap: 3%;
-        /* justify-content: space-between; */
-        overflow: auto;
-        white-space: nowrap;
-    }
-    .places{
-        text-decoration: none;
+    .place-section-1-mobile select{
+        border: 1px solid var(--location-input-background);
+        border-radius: 5px;
+        outline: 0;
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 0px;
         color: var(--header-black);
+        padding: 0 2%;
+    }
+    .place-section-1-mobile select option:focus{
+        color: black;
+    }
+    .place-section-1-mobile select option{
         font-weight: 400;
         font-size: 0.7rem;
-        line-height: 25px;
-    }
-    .places:hover{
-        color: #A02279;
+        line-height: 10px;
+        border-radius: 5px;
+        color: var(--button-color);
+        background-color: var(--all-purple);
     }
     .location-input{
-        width: 27%;
+        width: 30%;
         margin-right: 0%;
-        margin-top: 0.3vh;
         position: relative;
+        margin-top: 0.4vh;
     }
     .location-input input{
         /* height: 4vh; */
         width: 95%;
-        padding: 0.6vh 1.2rem 0.6vh 0.5rem;
-        margin-bottom: 0.7vh;
+        padding: 0.9vh 1.75rem 0.9vh 0.5rem;
         border: 1px solid var(--location-input-background);
-        border-radius: 4px;
+        border-radius: 5px;
         outline: 0;
         font-weight: 400;
-        font-size: 0.65rem;
+        font-size: 0.7rem;
         line-height: 19px;
     }
     .location-input img{
         position: absolute;
-        top: 25%;
+        top: 30%;
         left: 70%;
         width: 13%;
     }
+    
     
     /* second section */
     .place-inspiration{
@@ -677,38 +698,59 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 350px){
-    .places{
-        text-decoration: none;
-        color: var(--header-black);
-        font-weight: 400;
-        font-size: 0.6rem;
-        line-height: 25px;
+    .place-section-1{
+        display: none;
     }
-    .places:hover{
-        color: #A02279;
+    .place-section-1-mobile{
+        display: flex;
+        justify-content: space-between;
+        padding: 6vh 6% 3vh;
     }
-    .location-input{
-        width: 27%;
-        margin-right: 0%;
-        position: relative;
-    }
-    .location-input input{
-        /* height: 4vh; */
-        width: 100%;
-        padding: 0.3vh 1.2rem 0.3vh 0.5rem;
+    .place-section-1-mobile select{
         border: 1px solid var(--location-input-background);
         border-radius: 5px;
         outline: 0;
         font-weight: 400;
-        font-size: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 0px;
+        color: var(--header-black);
+        padding: 0 2%;
+    }
+    .place-section-1-mobile select option:focus{
+        color: black;
+    }
+    .place-section-1-mobile select option{
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 10px;
+        border-radius: 5px;
+        color: var(--button-color);
+        background-color: var(--all-purple);
+    }
+    .location-input{
+        width: 35%;
+        margin-right: 0%;
+        position: relative;
+        margin-top: 0.4vh;
+    }
+    .location-input input{
+        /* height: 4vh; */
+        width: 95%;
+        padding: 0.9vh 1.75rem 0.9vh 0.5rem;
+        border: 1px solid var(--location-input-background);
+        border-radius: 5px;
+        outline: 0;
+        font-weight: 400;
+        font-size: 0.7rem;
         line-height: 19px;
     }
     .location-input img{
         position: absolute;
-        top: 27.5%;
-        left: 75%;
+        top: 30%;
+        left: 70%;
         width: 13%;
     }
+    
     .desert .p-1{
         font-weight: 400;
         font-size: 0.65rem;
@@ -744,35 +786,55 @@
 }
 /* last media query */
 @media screen and (min-width: 0px) and (max-width: 300px){
-    .places{
-        text-decoration: none;
-        color: var(--header-black);
-        font-weight: 400;
-        font-size: 0.6rem;
-        line-height: 25px;
+    .place-section-1{
+        display: none;
     }
-    .places:hover{
-        color: #A02279;
+    .place-section-1-mobile{
+        display: flex;
+        justify-content: space-between;
+        padding: 6vh 6% 3vh;
     }
-    .location-input{
-        width: 25%;
-        margin-right: 0%;
-        position: relative;
-    }
-    .location-input input{
-        height: 3.5vh;
-        width: 95%;
-        padding: 0.45vh 1rem 0.4vh 0.3rem;
+    .place-section-1-mobile select{
         border: 1px solid var(--location-input-background);
         border-radius: 5px;
         outline: 0;
         font-weight: 400;
-        font-size: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 0px;
+        color: var(--header-black);
+        padding: 0 2%;
+    }
+    .place-section-1-mobile select option:focus{
+        color: black;
+    }
+    .place-section-1-mobile select option{
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 10px;
+        border-radius: 5px;
+        color: var(--button-color);
+        background-color: var(--all-purple);
+    }
+    .location-input{
+        width: 40%;
+        margin-right: 0%;
+        position: relative;
+        margin-top: 0.4vh;
+    }
+    .location-input input{
+        /* height: 4vh; */
+        width: 95%;
+        padding: 0.9vh 1.75rem 0.9vh 0.5rem;
+        border: 1px solid var(--location-input-background);
+        border-radius: 5px;
+        outline: 0;
+        font-weight: 400;
+        font-size: 0.7rem;
         line-height: 19px;
     }
     .location-input img{
         position: absolute;
-        top: 1.3vh;
+        top: 30%;
         left: 70%;
         width: 13%;
     }
