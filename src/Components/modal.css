@@ -345,7 +345,7 @@ hr{
         margin: 0 5%;
         display: flex;
         flex-direction: column;
-        gap: 2vh;
+        gap: 1rem;
     }
     .modal-3-content{
         display: flex;
@@ -467,7 +467,7 @@ hr{
         margin: 0 5%;
         display: flex;
         flex-direction: column;
-        gap: 2vh;
+        gap: 0.7rem;
     }
     .modal-3-content{
         display: flex;
