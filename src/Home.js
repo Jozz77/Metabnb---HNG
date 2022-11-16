@@ -1,9 +1,10 @@
 import React from 'react'
 import './home.css';
-import Rent_1 from './Assets/rent-1.png'
-import Rent_2 from './Assets/rent-2.png'
-import Rent_3 from './Assets/rent-3.png'
-import Rent_4 from './Assets/rent-4.png'
+// import Rent_1 from './Assets/rent-1.png'
+// import Rent_2 from './Assets/rent-2.png'
+// import Rent_3 from './Assets/rent-3.png'
+// import Rent_4 from './Assets/rent-4.png'
+import A_rent from './Assets/all-rent.png'
 import MbToken from './Assets/mbtoken.svg'
 import Metamask from './Assets/metamask.svg'
 import Metabnb_nfts from './Assets/metabnb-nfts.png'
@@ -36,14 +37,15 @@ export default function Home() {
         </div>
 
         <div className='Rent-pics'>
-          <div className='Rent-pics-1'>
+          <img src={A_rent} alt="A beautiful place"/> 
+          {/* <div className='Rent-pics-1'>
             <img src={Rent_1} alt="A beautiful place"/> 
             <img src={Rent_2} alt="A beautiful place"/> 
           </div>
           <div className='Rent-pics-2'>
             <img src={Rent_3} alt="A beautiful place"/> 
             <img src={Rent_4} alt="A beautiful place"/> 
-          </div>
+          </div> */}
         </div>
       </section>
 
