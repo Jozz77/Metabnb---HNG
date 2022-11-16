@@ -75,7 +75,7 @@
         text-decoration: none;
         color: var(--button-color);
         font-size: 1.3em;
-        padding-bottom: 3vh;
+        margin-bottom: 3vh;
      }
 }
 /* second media query */
