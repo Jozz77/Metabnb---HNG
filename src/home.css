@@ -630,7 +630,7 @@
     .Rent-pics{
         width: 100%;
         display: flex;
-        justify-content: center ;
+        justify-content: center;
         gap: 2%;
         margin-right: 0%;
     }
@@ -778,7 +778,7 @@
         padding: 0 5% 3vh;
         display: flex;
         flex-direction: column;
-        gap: 5vh;
+        gap: 0vh;
         justify-content: space-between;
     }
     .Rent{
@@ -834,6 +834,7 @@
     }
     .Rent-pics{
         width: 100%;
+        margin-top: 5vh;
         display: flex;
         justify-content: center ;
         gap: 2%;
@@ -1014,7 +1015,7 @@
         padding: 0 5% 3vh;
         display: flex;
         flex-direction: column;
-        gap: 7vh;
+        gap: 0vh;
         justify-content: space-between;
     }
     .Rent h1{
@@ -1106,7 +1107,7 @@
         padding: 0 5% 3vh;
         display: flex;
         flex-direction: column;
-        gap: 7vh;
+        gap: 0vh;
         justify-content: space-between;
     }
     .Rent h1{
