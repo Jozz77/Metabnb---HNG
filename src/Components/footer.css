@@ -135,17 +135,17 @@ footer{
         margin-top: 4vh;
         display: flex;
         justify-content: center;
-        gap: 3%;
     }
     .footer-section-2 p{
         font-weight: 400;
         font-size: 1em;
         line-height: 15px;
+        margin-right: 5%;
     }
     .footer-icons-mobile{
         display: flex;
         justify-content: space-between;
-        margin-top: 1.65vh;
+        align-items: center;
         width: 15%;
     }
     .footer-icons-mobile img{
@@ -202,17 +202,16 @@ footer{
         margin-top: 4vh;
         display: flex;
         justify-content: center;
-        gap: 3%;
     }
     .footer-section-2 p{
         font-weight: 400;
         font-size: 0.75em;
         line-height: 15px;
+        margin-right: 5%;
     }
     .footer-icons-mobile{
         display: flex;
         justify-content: space-between;
-        margin-top: 1.4vh;
         width: 20%;
     }
     .footer-icons-mobile img{
